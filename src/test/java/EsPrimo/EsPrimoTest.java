@@ -22,5 +22,11 @@ public class EsPrimoTest {
 		EsPrimo esprimo = new EsPrimo();
 		assertFalse(esprimo.EsNumeroPrimo(4));
 	}
+	
+	@Test
+	public void DevuelveFalseYaQueRecibeUnNueroQueNoEsPrimoElCualEsNoventaYNueve() {
+		EsPrimo esprimo = new EsPrimo();
+		assertFalse(esprimo.EsNumeroPrimo(99));
+	}
 
 }
