@@ -22,7 +22,7 @@ public class EsPrimoServlet extends HttpServlet{
 		String num = request.getParameter("numero");
 		boolean resp = primo.EsNumeroPrimo(Integer.parseInt(num));
 		
-		out.println("<br><br><h1> El numero: "+resp+" es primo: "+resp+"</h1>");
+		out.println("<br><br><h1> El numero: "+num+" es primo: "+resp+"</h1>");
 		out.close();
 	}
 }
