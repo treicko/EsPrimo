@@ -5,7 +5,7 @@
   <groupId>EsPrimo</groupId>
   <artifactId>EsPrimo</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>EsPrimo</name>
   <url>http://maven.apache.org</url>
